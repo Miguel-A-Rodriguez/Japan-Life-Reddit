@@ -1,0 +1,87 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.home-img {
+  font-size: 2rem;
+  padding-right: 25px;
+}
+.reddit-group {
+  display: inline-flex;
+  flex-direction: row;
+}
+.reddit-txt {
+  display: inline-flex;
+  font-size: 2rem;
+  color: black;
+}
+.japan-life {
+  height: auto;
+  max-width: 10%;
+}
+.japanlife-txt {
+  display: inline-flex;
+  font-size: 2rem;
+}
+.search-bar {
+  height: 3rem;
+  width: 45rem;
+  margin-top: 1.5rem;
+}
+.search-icon {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+.popular {
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+}
+.all {
+  display: inline-flex;
+  margin-left: 1rem;
+}
+.reddit-pan {
+  display: inline-flex;
+  margin-left: 1rem;
+}
+.button-group {
+  border-right: 1px solid var(--newCommunityTheme-line);
+  margin-right: 8px;
+  padding-right: 8px;
+}
+.button-group-2 {
+  margin-left: 1.5rem;
+}
+.fas fa-comment-dots {
+  display: inline-flex;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.messages {
+  display: inline-flex;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.post {
+  display: inline-flex;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+#oval-parent {
+  border-radius: 10px;
+  border: 2px solid yellow;
+  height: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+apply margin top to the "join-button" class not the child idiot
+
+Apply flexbox and use it on everything r/japanlife and below
+
+Apply to the second-header a margin: 0 auto; and then change the width, also remove the padding/margin off the image
+also change the width to 40% to line it up with everything below.
+
+Try to remove all fixed and apply to the navbar

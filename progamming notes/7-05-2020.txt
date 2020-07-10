@@ -1,0 +1,7 @@
+.userposts take off flex-wrap to fix 
+
+more than 2 columns use grid
+
+use display: flex on the main-body div
+
+use seperate divs for every box to the right of the main body

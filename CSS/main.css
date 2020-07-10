@@ -151,6 +151,7 @@ ul {
   height: auto;
   width: 300rem;
   margin-top: 1rem;
+  display: flex;
 }
 .second-japan-life-photo {
   display: flex;
@@ -268,17 +269,16 @@ a:hover {
 }
 .user-posts {
   display: flex;
-  flex-wrap: wrap;
   margin-left: 36rem;
   height: auto;
   width: 50rem;
-  border-top: 2rem solid #dae0e6;
+  border-top: 1rem solid #dae0e6;
   background-color: white;
 }
+
 .voting {
   background-color: #f8f9fa;
   display: flex;
-  flex-wrap: wrap;
 }
 .voting li {
   display: flex;
@@ -355,4 +355,143 @@ a:hover {
 }
 .wrapper-1 {
   flex-wrap: wrap;
+}
+.community-box {
+  margin-left: 2rem;
+  width: 20rem;
+  background-color: #047bd4;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: none;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.community-box span {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 16px;
+  height: auto;
+  width: auto;
+}
+.community-box .fas {
+  color: white;
+  margin-left: 8rem;
+  margin-right: 1rem;
+  font-size: 80%;
+  margin-top: 1rem;
+}
+.second-column {
+  display: flex;
+  flex-direction: column;
+}
+.community-box-contents {
+  margin-left: 2rem;
+  max-width: 20rem;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  line-height: 1.5rem;
+}
+.community-box-contents span {
+  margin-left: 1rem;
+  max-width: 20rem;
+}
+.community-stats {
+  display: flex;
+  margin-left: 2rem;
+  background-color: white;
+  border-top: solid 1rem white;
+}
+.community-stats {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  padding-right: 8rem;
+  padding-left: 1rem;
+}
+.members {
+  font-weight: 800;
+}
+.community-stats-2 {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  padding-right: 7rem;
+  background-color: white;
+  max-width: 20rem;
+  height: auto;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  border-bottom: solid 1rem white;
+}
+.border {
+  display: flex;
+  margin-left: 2rem;
+  background-color: white;
+  width: 20rem;
+  border-top: rgb(218, 215, 215) 1px solid;
+}
+
+.birthday {
+  color: black;
+  height: 6%;
+  width: 6%;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.birthdate {
+  display: flex;
+  height: auto;
+  width: 15rem;
+  color: black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.create-post-button {
+  display: flex;
+  background-color: white;
+  width: 20rem;
+  margin-left: 2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  border-bottom: rgb(218, 215, 215) 1px solid;
+}
+.create-button-background {
+  background-color: #047bd4;
+  display: flex;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 90%;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.community-options {
+  display: flex;
+  margin-left: 2rem;
+  background-color: white;
+  width: 20rem;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
+}
+.community-text {
+  margin-left: 1rem;
+  width: 20rem;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.community-options i {
+  margin-right: 1rem;
 }

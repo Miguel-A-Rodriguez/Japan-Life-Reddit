@@ -158,9 +158,12 @@ ul {
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  width: 7rem;
+  width: 6rem;
   margin-left: 35rem;
   padding-right: 2rem;
+  position: relative;
+  bottom: 2rem;
+  border-radius: 50%;
 }
 .japan-life-second {
   display: flex;
@@ -274,6 +277,14 @@ a:hover {
   height: auto;
   width: 50rem;
   border-top: 1rem solid #dae0e6;
+  background-color: white;
+}
+.user-posts-2 {
+  display: flex;
+  margin-left: 36rem;
+  height: auto;
+  width: 50rem;
+  border-top: 0.1rem solid #dae0e6;
   background-color: white;
 }
 

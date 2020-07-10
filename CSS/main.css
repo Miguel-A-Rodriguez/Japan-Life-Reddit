@@ -38,7 +38,7 @@ ul {
   margin-top: 1.5rem;
 }
 .search-icon {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   font-size: 2rem;
 }
@@ -94,13 +94,14 @@ ul {
 }
 .header-user-dropdown {
   display: inline-flex;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   margin-left: 1rem;
   border: 1px solid #a8aaab;
   position: absolute;
   top: 0.1rem;
   height: auto;
   max-width: 15rem;
+  background-color: white;
 }
 
 .profile-box span {
@@ -494,4 +495,119 @@ a:hover {
 }
 .community-options i {
   margin-right: 1rem;
+}
+
+.r-japanlife-rules {
+  display: flex;
+  height: 2rem;
+  background-color: #ea0027;
+  width: 19rem;
+  margin-left: 2rem;
+  color: white;
+  padding-left: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 12px;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  border-radius: 3px 3px 0 0;
+}
+.rules {
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  margin-left: 2rem;
+  border-radius: 3px 3px 0 0;
+  height: auto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.rules :hover {
+  cursor: pointer;
+}
+
+.post-1 {
+  padding-top: 1rem;
+  padding-left: 1em;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.post-1 i {
+  margin-left: 7rem;
+  padding-bottom: 1rem;
+}
+.post-2 {
+  padding-left: 1em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.post-2 i {
+  padding-left: 12.2rem;
+}
+.post-3 {
+  padding-left: 1em;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.rules .post-3 i {
+  padding-left: 6rem;
+  position: relative;
+  bottom: 1em;
+  left: 0.1em;
+}
+.post-4 {
+  padding-left: 1em;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.post-4 i {
+  padding-left: 2.6rem;
+}
+.post-5 {
+  padding-left: 1em;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.post-5 i {
+  padding-left: 8.1rem;
+}
+.post-6 {
+  padding-left: 1em;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.post-6 i {
+  padding-left: 8rem;
+}
+.post-7 {
+  padding-left: 1em;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.post-7 i {
+  padding-left: 11rem;
+}
+body {
+  padding-top: 6rem;
+}
+header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 138rem;
+}
+.background-img {
+  position: relative;
+  right: 1rem;
+  height: auto;
+}
+.background-photo {
+  height: 13rem;
 }
